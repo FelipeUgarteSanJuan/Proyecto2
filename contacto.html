@@ -15,7 +15,7 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a class="navbar-brand" href="#">PoleroneSkin</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -41,7 +41,7 @@
                                 <a class="nav-link" href="contacto.html">Contacto</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" href="carrito.html" tabindex="-1" aria-disabled="true">Carrito</a>
+                                <a class="nav-link" href="carrito.html">Carrito</a>
                             </li>
                         </ul>
                         <form class="d-flex">
@@ -54,3 +54,39 @@
             </nav>
         </header>
     </div>
+    <main class="formulario">
+        <div>
+            <h2>
+                Contactanos!
+            </h2>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombres</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombres">
+            </div>
+            <div>
+                <label for="exampleFormControlInput1" class="form-label">Apellidos</label>
+                <input class="form-control form-control-lg" type="text" placeholder="Apellidos" aria-label=".form-control-lg example">
+            </div>
+            <div>
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input class="form-control" type="text" placeholder="name@example.com" aria-label="default input example">
+            </div>
+            <div>
+                <label for="exampleDataList" class="form-label">Algunos Problemas</label>
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Problemas Comunes...">
+                <datalist id="datalistOptions">
+            <option value="No a llegado el pedido">
+            <option value="Problemas con el pago">
+            <option value="Devolucion de un producto">
+            <option value="Cancelar un pedido">
+            </datalist>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Describe tu duda o problema</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div>
+                <a class="btn btn-primary" href="#" role="button">Enviar</a>
+            </div>
+        </div>
+    </main>

@@ -1,0 +1,11 @@
+body {
+    background-color: darkkhaki;
+}
+
+.formulario {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
